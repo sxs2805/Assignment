@@ -178,11 +178,7 @@ public class Main {
 	        	System.out.println(recipeEdited + " successfully edited.\n");
 	        }
 		    else {
-				/*
-				6TH COMMENT ADDED
-				FIXME: KNOWN NULL VALUE, REPLACE WITH NULL
-				 */
-		    	System.out.println(recipeEdited + "could not be edited.\n");
+		    	System.out.println(null + "could not be edited.\n");
 		    }
 		} catch (RecipeException e) {
 			System.out.println(e.getMessage());
@@ -270,20 +266,15 @@ public class Main {
 	    String returnString = "";
 	    try {
 	        returnString = br.readLine();
+
 	    }
 	    catch (IOException e){
 			e.printStackTrace();
 	        System.out.println("Error reading in value");
-
-	    } finally {
-			try {
-				br.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-				mainMenu();
-			}
+			mainMenu();
 		}
 	    return returnString;
+
     }
     
     /**

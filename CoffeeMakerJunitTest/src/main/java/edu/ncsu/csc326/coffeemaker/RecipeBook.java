@@ -17,7 +17,6 @@ public final class RecipeBook {
 	
 	/**
 	 * Returns the recipe array.
-	 * @param r
 	 * @return Recipe[]
 	 */
 	public synchronized Recipe[] getRecipes() {
