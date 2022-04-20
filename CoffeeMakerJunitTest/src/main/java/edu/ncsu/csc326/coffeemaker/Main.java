@@ -272,13 +272,17 @@ public class Main {
 	        returnString = br.readLine();
 	    }
 	    catch (IOException e){
+			e.printStackTrace();
 	        System.out.println("Error reading in value");
-	        mainMenu();
-	    }
-		/*
-		3RD COMMENT ADDED
-		TODO: ADD CLOSE STATEMENT
-		 */
+
+	    } finally {
+			try {
+				br.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+				mainMenu();
+			}
+		}
 	    return returnString;
     }
     

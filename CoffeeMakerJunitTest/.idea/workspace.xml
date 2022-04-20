@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b3ddac5-cb59-4285-af20-3036bb190c39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ncsu/csc326/coffeemaker/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ncsu/csc326/coffeemaker/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ncsu/csc326/coffeemaker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ncsu/csc326/coffeemaker/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,7 @@
       <updated>1646177280820</updated>
       <workItem from="1646177283008" duration="2465000" />
       <workItem from="1646179774410" duration="187000" />
-      <workItem from="1650428378928" duration="1326000" />
+      <workItem from="1650428378928" duration="1797000" />
     </task>
     <servers />
   </component>
