@@ -6,11 +6,7 @@ import edu.ncsu.csc326.coffeemaker.exceptions.RecipeException;
  * @author   Sarah Heckman
  */
 
-/*
-4TH COMMENT ADDED
-TODO: MAKE THIS CLASS FINAL
- */
-public class Recipe {
+public final class Recipe {
     private String name;
     private int price;
     private int amtCoffee;
