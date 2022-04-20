@@ -1,10 +1,6 @@
 package edu.ncsu.csc326.coffeemaker;
 
-/*
-5TH COMMENT ADDED
-TODO: MAKE THIS CLASS FINAL
- */
-public class RecipeBook {
+public final class RecipeBook {
 	
 	/** Array of recipes in coffee maker*/
 	private Recipe [] recipeArray;
