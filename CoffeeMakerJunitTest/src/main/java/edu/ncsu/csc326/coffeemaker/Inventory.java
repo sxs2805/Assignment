@@ -53,15 +53,13 @@ public class Inventory {
      * @throws InventoryException
      */
 
-	/*
-	9TH COMMENT ADDED
-	FIXME: New exception is thrown in catch block, original stack trace may be lost
-	 */
+
     public synchronized void addChocolate(String chocolate) throws InventoryException {
     	int amtChocolate = 0;
     	try {
     		amtChocolate = Integer.parseInt(chocolate);
     	} catch (NumberFormatException e) {
+			e.printStackTrace();
     		throw new InventoryException("Units of chocolate must be a positive integer");
     	}
 		if (amtChocolate >= 0) {
@@ -146,6 +144,7 @@ public class Inventory {
     	try {
     		amtMilk = Integer.parseInt(milk);
     	} catch (NumberFormatException e) {
+			e.printStackTrace();
     		throw new InventoryException("Units of milk must be a positive integer");
     	}
 		if (amtMilk >= 0) {
@@ -186,6 +185,7 @@ public class Inventory {
     	try {
     		amtSugar = Integer.parseInt(sugar);
     	} catch (NumberFormatException e) {
+			e.printStackTrace();
     		throw new InventoryException("Units of sugar must be a positive integer");
     	}
 		if (amtSugar >= 0) {

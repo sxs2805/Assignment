@@ -40,6 +40,7 @@ public final class Recipe {
     	try {
     		amtChocolate = Integer.parseInt(chocolate);
     	} catch (NumberFormatException e) {
+			e.printStackTrace();
     		throw new RecipeException("Units of chocolate must be a positive integer");
     	}
 		if (amtChocolate >= 0) {
@@ -62,6 +63,7 @@ public final class Recipe {
     	try {
     		amtCoffee = Integer.parseInt(coffee);
     	} catch (NumberFormatException e) {
+			e.printStackTrace();
     		throw new RecipeException("Units of coffee must be a positive integer");
     	}
 		if (amtCoffee >= 0) {
@@ -84,6 +86,7 @@ public final class Recipe {
     	try {
     		amtMilk = Integer.parseInt(milk);
     	} catch (NumberFormatException e) {
+			e.printStackTrace();
     		throw new RecipeException("Units of milk must be a positive integer");
     	}
 		if (amtMilk >= 0) {
@@ -106,6 +109,7 @@ public final class Recipe {
     	try {
     		amtSugar = Integer.parseInt(sugar);
     	} catch (NumberFormatException e) {
+			e.printStackTrace();
     		throw new RecipeException("Units of sugar must be a positive integer");
     	}
 		if (amtSugar >= 0) {
@@ -142,6 +146,7 @@ public final class Recipe {
     	try {
     		amtPrice = Integer.parseInt(price);
     	} catch (NumberFormatException e) {
+			e.printStackTrace();
     		throw new RecipeException("Price must be a positive integer");
     	}
 		if (amtPrice >= 0) {
