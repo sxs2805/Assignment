@@ -7,6 +7,7 @@ public class RecipeBook {
 	/** Number of recipes in coffee maker */
 
 	/*
+	FIRST COMMENT
 	FIXME: MAKE THIS STATIC
 	 */
 	private final int NUM_RECIPES = 4; 

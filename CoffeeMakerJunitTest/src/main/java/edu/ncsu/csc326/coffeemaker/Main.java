@@ -281,6 +281,9 @@ public class Main {
     	int recipe = 0;
         try {
         	recipe = Integer.parseInt(userSelection) - 1;
+			/*  2ND COMMENT
+			FIXME: Avoid empty if statements 
+			 */
         	if (recipe >= 0 && recipe <=2) {
         		//do nothing here.
         	} else {
