@@ -32,7 +32,10 @@ public class Main {
         //Get user input
         try {
         	int userInput = Integer.parseInt(inputOutput("Please press the number that corresponds to what you would like the coffee maker to do."));
-        	
+        	/*
+        	7TH COMMENT ADDED
+        	TODO: ADD CURLY BRACKETS
+        	 */
         	if (userInput >= 0 && userInput <=6) {
 		        if (userInput == 1) addRecipe();
 		        if (userInput == 2) deleteRecipe();
