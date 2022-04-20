@@ -173,6 +173,10 @@ public class Recipe {
 
 	@Override
 	public boolean equals(Object obj) {
+		/*
+        8TH COMMENT ADDED
+        TODO: ADD CURLY BRACKETS
+        */
 		if (this == obj)
 			return true;
 		if (obj == null)
