@@ -97,6 +97,10 @@ public class Inventory {
      * @param coffee
      * @throws InventoryException
      */
+	/*
+	10TH COMMENT ADDED
+	FIXME: New exception is thrown in catch block, original stack trace may be lost
+	 */
     public synchronized void addCoffee(String coffee) throws InventoryException {
     	int amtCoffee = 0;
     	try {
