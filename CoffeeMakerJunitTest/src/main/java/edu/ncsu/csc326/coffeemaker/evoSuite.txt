@@ -1,0 +1,210 @@
+* EvoSuite 1.1.0
+* Going to generate test cases for class: edu.ncsu.csc326.coffeemaker.RecipeBook
+* Starting Client-0
+* Connecting to master process on port 5757
+* Analyzing classpath:
+  - CoffeeMaker_JUnit/bin/
+* Finished analyzing classpath
+* Generating tests for class edu.ncsu.csc326.coffeemaker.RecipeBook
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals for DYNAMOSA: 157
+* Using seed 1634304798855
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 63 / 157
+[Progress:==============================100%] [Cov:===============================>   89%]
+* Search finished after 61s and 324 generations, 92511 statements, best individual has fitness: 10.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 27
+* Number of covered goals: 27
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 18
+* Number of covered goals: 17
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 96%
+* Total number of goals: 73
+* Number of covered goals: 70
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 82%
+* Total number of goals: 11
+* Number of covered goals: 9
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 94%
+* Total number of goals: 18
+* Number of covered goals: 17
+* Generated 12 tests with total length 41
+* Resulting test suite's coverage: 90% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 75%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'RecipeBook_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished
+(base) ashnilvazirani@ASHNILs-MacBook-Pro fixed % sudo java -jar evosuite-1.1.0.jar -projectCP CoffeeMaker_JUnit/bin/ -class edu.ncsu.csc326.coffeemaker.Recipe
+Password:
+* EvoSuite 1.1.0
+* Going to generate test cases for class: edu.ncsu.csc326.coffeemaker.Recipe
+* Starting Client-0
+* Connecting to master process on port 8883
+* Analyzing classpath:
+  - CoffeeMaker_JUnit/bin/
+* Finished analyzing classpath
+* Generating tests for class edu.ncsu.csc326.coffeemaker.Recipe
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals for DYNAMOSA: 329
+* Using seed 1634305400416
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 184 / 329
+[Progress:==============================100%] [Cov:============================>      81%]
+* Search finished after 61s and 525 generations, 92156 statements, best individual has fitness: 48.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 92%
+* Total number of goals: 80
+* Number of covered goals: 74
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 76%
+* Total number of goals: 34
+* Number of covered goals: 26
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 89%
+* Total number of goals: 126
+* Number of covered goals: 112
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 70%
+* Total number of goals: 23
+* Number of covered goals: 16
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 76%
+* Total number of goals: 34
+* Number of covered goals: 26
+* Generated 32 tests with total length 76
+* Resulting test suite's coverage: 82% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 58%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'Recipe_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished
+(base) ashnilvazirani@ASHNILs-MacBook-Pro fixed % sudo java -jar evosuite-1.1.0.jar -projectCP CoffeeMaker_JUnit/bin/ -class edu.ncsu.csc326.coffeemaker.Inventory
+Password:
+* EvoSuite 1.1.0
+* Going to generate test cases for class: edu.ncsu.csc326.coffeemaker.Inventory
+* Starting Client-0
+* Connecting to master process on port 11471
+* Analyzing classpath:
+  - CoffeeMaker_JUnit/bin/
+* Finished analyzing classpath
+* Generating tests for class edu.ncsu.csc326.coffeemaker.Inventory
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals for DYNAMOSA: 417
+* Using seed 1634305709047
+* Starting evolution
+* Initial Number of Goals in DynaMOSA = 233 / 417
+[Progress:==============================100%] [Cov:=============================>     85%]
+* Search finished after 61s and 364 generations, 77910 statements, best individual has fitness: 35.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 96%
+* Total number of goals: 89
+* Number of covered goals: 85
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 32
+* Number of covered goals: 28
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 95%
+* Total number of goals: 213
+* Number of covered goals: 202
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 68%
+* Total number of goals: 19
+* Number of covered goals: 13
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 88%
+* Total number of goals: 32
+* Number of covered goals: 28
+* Generated 38 tests with total length 101
+* Resulting test suite's coverage: 85% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 86%
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'Inventory_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished
+(base) ashnilvazirani@ASHNILs-MacBook-Pro fixed %
+
+  [Restored Oct 15, 2021 at 7:00:31 PM]
+Last login: Fri Oct 15 18:37:16 on console
+Restored session: Fri Oct 15 11:07:15 EDT 2021

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b3ddac5-cb59-4285-af20-3036bb190c39" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="25nyjUCkHKJ0wvGK35ZgNNKCebK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.11904764" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.ncsu.csc326.coffeemaker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PIT Runner.PITRunner-CoffeeMaker">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ncsu.csc326.coffeemaker.Main" />
+      <module name="CoffeeMakerJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ncsu.csc326.coffeemaker.testdir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoffeeMakerTest" type="JUnit" factoryName="JUnit">
+      <module name="CoffeeMakerJunitTest" />
+      <option name="PACKAGE_NAME" value="edu.ncsu.csc326.coffeemaker.testdir" />
+      <option name="MAIN_CLASS_NAME" value="edu.ncsu.csc326.coffeemaker.testdir.CoffeeMakerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CoffeeMakerJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ncsu.csc326.coffeemaker.testdir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ncsu.csc326.coffeemaker.testdir" />
+      <option name="MAIN_CLASS_NAME" value="edu.ncsu.csc326.coffeemaker.testdir.InventoryTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CoffeeMakerJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ncsu.csc326.coffeemaker.testdir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ncsu.csc326.coffeemaker.testdir" />
+      <option name="MAIN_CLASS_NAME" value="edu.ncsu.csc326.coffeemaker.testdir.RecipeBookTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CoffeeMakerJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ncsu.csc326.coffeemaker.testdir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ncsu.csc326.coffeemaker.testdir" />
+      <option name="MAIN_CLASS_NAME" value="edu.ncsu.csc326.coffeemaker.testdir.RecipeTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PITRunner-CoffeeMaker" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/target/report" SOURCE_DIRS="$PROJECT_DIR$/src/test/java" TARGET_CLASSES="edu.*" TARGET_TESTS="" otherParams="--outputFormats XML,HTML --verbose">
+      <module name="CoffeeMakerJunitTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.CoffeeMakerTest" />
+      <item itemvalue="JUnit.InventoryTest" />
+      <item itemvalue="JUnit.RecipeBookTest" />
+      <item itemvalue="JUnit.RecipeTest" />
+      <item itemvalue="PIT Runner.PITRunner-CoffeeMaker" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RecipeTest" />
+        <item itemvalue="JUnit.RecipeBookTest" />
+        <item itemvalue="JUnit.InventoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b3ddac5-cb59-4285-af20-3036bb190c39" name="Default Changelist" comment="" />
+      <created>1646177280820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646177280820</updated>
+      <workItem from="1646177283008" duration="2465000" />
+      <workItem from="1646179774410" duration="187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
