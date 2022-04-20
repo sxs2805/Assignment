@@ -173,18 +173,18 @@ public final class Recipe {
         8TH COMMENT ADDED
         TODO: ADD CURLY BRACKETS
         */
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		if (this == obj){
+			return true;}
+		if (obj == null){
+			return false;}
+		if (getClass() != obj.getClass()){
+			return false;}
 		final Recipe other = (Recipe) obj;
 		if (name == null) {
-			if (other.name != null)
-				return false;
-		} else if (!name.equals(other.name))
-			return false;
+			if (other.name != null){
+				return false;}
+		} else if (!name.equals(other.name)){
+			return false;}
 		return true;
 	}
 
