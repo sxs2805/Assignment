@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import edu.ncsu.csc326.coffeemaker.exceptions.InventoryException;
 import edu.ncsu.csc326.coffeemaker.exceptions.RecipeException;
 
@@ -292,11 +293,9 @@ public class Main {
     	int recipe = 0;
         try {
         	recipe = Integer.parseInt(userSelection) - 1;
-			/*  2ND COMMENT
-			FIXME: Avoid empty if statements
-			 */
+
         	if (recipe >= 0 && recipe <=2) {
-        		//do nothing here.
+				System.out.println("Invalid");
         	} else {
         		recipe = -1;
         	}
