@@ -5,6 +5,10 @@ public class RecipeBook {
 	/** Array of recipes in coffee maker*/
 	private Recipe [] recipeArray;
 	/** Number of recipes in coffee maker */
+
+	/*
+	FIXME: MAKE THIS STATIC
+	 */
 	private final int NUM_RECIPES = 4; 
 	
 	/**

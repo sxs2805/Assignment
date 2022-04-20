@@ -18,6 +18,7 @@
     </option>
   </component>
   <component name="ProjectId" id="25nyjUCkHKJ0wvGK35ZgNNKCebK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +44,7 @@
       <recent name="edu.ncsu.csc326.coffeemaker" />
     </key>
   </component>
-  <component name="RunManager" selected="PIT Runner.PITRunner-CoffeeMaker">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
