@@ -95,15 +95,12 @@ public class Inventory {
      * @param coffee
      * @throws InventoryException
      */
-	/*
-	10TH COMMENT ADDED
-	FIXME: New exception is thrown in catch block, original stack trace may be lost
-	 */
     public synchronized void addCoffee(String coffee) throws InventoryException {
     	int amtCoffee = 0;
     	try {
     		amtCoffee = Integer.parseInt(coffee);
     	} catch (NumberFormatException e) {
+			e.printStackTrace();
     		throw new InventoryException("Units of coffee must be a positive integer");
     	}
 		if (amtCoffee >= 0) {
