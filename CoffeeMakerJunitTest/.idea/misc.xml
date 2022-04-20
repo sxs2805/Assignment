@@ -36,6 +36,9 @@
   <component name="ProjectType">
     <option name="id" value="jpab" />
   </component>
+  <component name="QAPlugAnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.65452653" />
+  </component>
   <component name="SuppressionsComponent">
     <option name="suppComments" value="[]" />
   </component>
