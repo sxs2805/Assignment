@@ -10,11 +10,7 @@ public class RecipeBook {
 	private Recipe [] recipeArray;
 	/** Number of recipes in coffee maker */
 
-	/*
-	FIRST COMMENT
-	FIXME: MAKE THIS STATIC
-	 */
-	private final int NUM_RECIPES = 4; 
+	private final static int NUM_RECIPES = 4;
 	
 	/**
 	 * Default constructor for a RecipeBook.
