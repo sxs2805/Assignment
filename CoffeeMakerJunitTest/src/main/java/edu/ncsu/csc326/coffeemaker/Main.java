@@ -267,6 +267,10 @@ public class Main {
 	        System.out.println("Error reading in value");
 	        mainMenu();
 	    }
+		/*
+		3RD COMMENT ADDED
+		TODO: ADD CLOSE STATEMENT
+		 */
 	    return returnString;
     }
     
@@ -282,7 +286,7 @@ public class Main {
         try {
         	recipe = Integer.parseInt(userSelection) - 1;
 			/*  2ND COMMENT
-			FIXME: Avoid empty if statements 
+			FIXME: Avoid empty if statements
 			 */
         	if (recipe >= 0 && recipe <=2) {
         		//do nothing here.
